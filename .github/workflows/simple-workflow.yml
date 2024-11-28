@@ -3,7 +3,7 @@ name: Simple Workflow
 on:
   workflow_dispatch:
   schedule:
-    - cron : "25 * * * *"
+    - cron : "30 * * * *"
 
 jobs: 
   main_job:
