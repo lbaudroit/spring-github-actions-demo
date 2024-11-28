@@ -2,8 +2,8 @@ name: Simple Workflow
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron : "30 * * * *"
+#  schedule:
+#    - cron : "30 * * * *"
 
 jobs: 
   main_job:
